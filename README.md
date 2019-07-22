@@ -1,5 +1,5 @@
 # Govcon 2019 Tuesday July 23rd, 2019
-This is the outline for the day. This branch contains boilerplates that you can use to cross-reference or streamline the commands we'll work through the day of.
+This is the outline for the day. This branch contains boilerplates that you can use to cross-reference or streamline the commands we'll work through the day of. If you don't want to work through all this together or get lost, the answers folder has a working finished copy of what we'll be working on and talking through the day of.
 
 - 5 minute overview of what webcomponents are / considerations
   - 96.4% of USA government web traffic can handle web components (probably closer to 98% in reality)
