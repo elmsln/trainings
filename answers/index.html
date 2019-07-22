@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="Description" content="Put your description here.">
+
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+      background-color: #ededed;
+    }
+  </style>
+  <title>gov-con</title>
+  <script src="./node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
+  <script async src="./node_modules/web-animations-js/web-animations-next-lite.min.js"></script>
+</head>
+<body>
+  <gov-button size="medium" target="_blank" title="Go here" link="https://google.com/"></gov-button>
+  <gov-button size="large" title="Go here" link="https://google.com/"></gov-button>
+  <gov-button link="https://google.com/"></gov-button>
+  <gov-modal label="Open this party up!">
+    <h2>Header</h2>
+    <div>
+      A whole bunch of content and what not, right....here...
+    </div>
+    <div class="buttons">
+      <paper-button dialog-dismiss>Cancel</paper-button>
+      <paper-button dialog-confirm autofocus>Accept</paper-button>
+    </div>
+  </gov-modal>
+  <h2>Awesome API link usage thing from an endpoint</h2>
+  <gov-api></gov-api>
+  <script type="module">
+  import "./src/gov-button.js";
+    import "./src/gov-modal.js";
+    import "./src/gov-api.js";
+  </script>
+</body>
+
+</html>
